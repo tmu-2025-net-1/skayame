@@ -1,0 +1,16 @@
+body {
+  background-color: #000000;
+  color: #0f0;
+  font-family: monospace;
+  white-space: pre;
+  height: 100vh;
+  margin: 0;
+  padding: 2em;
+
+}
+
+
+#ascii-art {
+  white-space: pre;
+  padding: 20px;
+}
