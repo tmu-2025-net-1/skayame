@@ -49,6 +49,7 @@ function highlightCharacters() {
   spans.forEach(span => {
     span.innerHTML = span.innerText
       .replace(/木/g, '<span class="tree">幹</span>')
+      .replace(/べ/g, '<span class="wood">木</span>')
       .replace(/葉/g, '<span class="leaf">葉</span>')
       .replace(/は/g, '<span class="leaf2">葉</span>')
       .replace(/赤/g, '<span class="red">赤</span>')
@@ -57,6 +58,7 @@ function highlightCharacters() {
       .replace(/水/g, '<span class="sky">水</span>')
       .replace(/雲/g, '<span class="cloud">雲</span>')
       .replace(/鳥/g, '<span class="bird">鳥</span>')
+      .replace(/１/g, '<span class="white">言</span>')
       .replace(/桜/g, '<span class="sakura">桜</span>')
       .replace(/さ/g, '<span class="sakura2">桜</span>')
       .replace(/き/g, '<span class="yellow">花</span>')
